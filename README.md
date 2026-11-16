@@ -30,13 +30,14 @@ cross-resource model copy, and an accuracy evaluator that compares model output 
 ## Setup
 
 1. Create a Document Intelligence resource (S0) and a storage account. `infra/provision.sh` does it with the Azure CLI and prints the env vars. Pick a region that supports custom neural models (check the docs), and delete the resource group when done.
-2. Set environment variables:
-   ```bash
-   export DOCINTEL_ENDPOINT="https://<name>.cognitiveservices.azure.com/"
-   export DOCINTEL_KEY="<key>"                       # omit to use Entra ID (needs the 'Cognitive Services User' role)
-   export STORAGE_CONNECTION_STRING="<connection string>"   # or STORAGE_ACCOUNT_URL + Entra ID (Storage Blob Data Contributor)
-   # optional: TRAINING_CONTAINER (default docint-training), RESULTS_CONTAINER (default docint-results)
-   ```
+2. Copy `src/AzureDocumentIntelligenceLab/local.settings.sample.json` to `local.settings.json` in the same folder and
+   replace the placeholders. `DOCINTEL_KEY` is optional; leave it empty to use Entra ID (requires the
+   `Cognitive Services User` role). Use either `STORAGE_CONNECTION_STRING` or `STORAGE_ACCOUNT_URL` with Entra ID
+   (requires `Storage Blob Data Contributor`); if using the account URL, leave the connection string empty.
+   You can also use an `app.settings.json` file with those setting names as top-level properties instead of the
+   `local.settings.json` `Values` object. Environment variables override values from either file.
+   Personal `local.settings.json` and `app.settings.json` files are git-ignored; do not commit credentials. Optional settings:
+   `TRAINING_CONTAINER` (default `docint-training`) and `RESULTS_CONTAINER` (default `docint-results`).
 3. `cd src/AzureDocumentIntelligenceLab && dotnet run -- --help` (the executable is named `docintel`; the commands below use `dotnet run -- <command>`).
 
 Training reads your container through a short-lived SAS the app generates (account key or user-delegation key).
@@ -53,6 +54,8 @@ dotnet run -- layout  ../../sample-data/test/service-contract/sa-t001.pdf --mark
 # 2. Prepare + upload training data (.ocr.json is created by the service's Layout model)
 dotnet run -- ocr
 dotnet run -- upload --classifier
+
+Classifier training requires a Layout result (`<file>.pdf.ocr.json`) beside every training PDF in its class folder. `upload --classifier` copies both files; if you generate OCR after uploading, run the upload command again.
 
 # 3. One custom model per layout (template = fixed layouts; use --mode neural for variable layouts)
 dotnet run -- train invoice-contoso  model-contoso

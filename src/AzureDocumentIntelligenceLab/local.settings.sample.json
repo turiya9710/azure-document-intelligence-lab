@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "DOCINTEL_ENDPOINT": "https://<your-resource>.cognitiveservices.azure.com/",
+    "DOCINTEL_KEY": "",
+    "STORAGE_CONNECTION_STRING": "<your-storage-connection-string>",
+    "STORAGE_ACCOUNT_URL": "",
+    "TRAINING_CONTAINER": "docint-training",
+    "RESULTS_CONTAINER": "docint-results"
+  }
+}

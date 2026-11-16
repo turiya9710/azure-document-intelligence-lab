@@ -1,0 +1,508 @@
+{
+  "training/invoice-contoso/ctso-0001.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Munson Paper Co",
+      "InvoiceNumber": "INV-2026071",
+      "InvoiceDate": "02/14/2025",
+      "DueDate": "03/14/2025",
+      "PurchaseOrder": "PO-7955",
+      "CustomerName": "Margie's Travel",
+      "Subtotal": "$8,444.80",
+      "Tax": "$675.58",
+      "Total": "$9,120.38"
+    }
+  },
+  "training/invoice-contoso/ctso-0002.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Adatum Office Goods",
+      "InvoiceNumber": "INV-2026553",
+      "InvoiceDate": "05/14/2025",
+      "DueDate": "06/14/2025",
+      "PurchaseOrder": "PO-6054",
+      "CustomerName": "Trey Research",
+      "Subtotal": "$939.20",
+      "Tax": "$75.14",
+      "Total": "$1,014.34"
+    }
+  },
+  "training/invoice-contoso/ctso-0003.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Munson Paper Co",
+      "InvoiceNumber": "INV-2026795",
+      "InvoiceDate": "11/18/2026",
+      "DueDate": "12/18/2026",
+      "PurchaseOrder": "PO-8424",
+      "CustomerName": "Humongous Insurance",
+      "Subtotal": "$1,977.60",
+      "Tax": "$158.21",
+      "Total": "$2,135.81"
+    }
+  },
+  "training/invoice-contoso/ctso-0004.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Munson Paper Co",
+      "InvoiceNumber": "INV-2026168",
+      "InvoiceDate": "02/17/2025",
+      "DueDate": "03/17/2025",
+      "CustomerName": "Margie's Travel",
+      "Subtotal": "$3,334.65",
+      "Tax": "$266.77",
+      "Total": "$3,601.42"
+    }
+  },
+  "training/invoice-contoso/ctso-0005.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Munson Paper Co",
+      "InvoiceNumber": "INV-2026070",
+      "InvoiceDate": "10/26/2026",
+      "DueDate": "11/26/2026",
+      "CustomerName": "Humongous Insurance",
+      "Subtotal": "$2,743.50",
+      "Tax": "$219.48",
+      "Total": "$2,962.98"
+    }
+  },
+  "training/invoice-contoso/ctso-0006.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Adatum Office Goods",
+      "InvoiceNumber": "INV-2026786",
+      "InvoiceDate": "08/02/2025",
+      "DueDate": "09/02/2025",
+      "PurchaseOrder": "PO-5056",
+      "CustomerName": "Litware Inc",
+      "Subtotal": "$3,886.80",
+      "Tax": "$310.94",
+      "Total": "$4,197.74"
+    }
+  },
+  "training/invoice-contoso/ctso-0007.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Adatum Office Goods",
+      "InvoiceNumber": "INV-2026237",
+      "InvoiceDate": "02/06/2025",
+      "DueDate": "03/06/2025",
+      "PurchaseOrder": "PO-1197",
+      "CustomerName": "Alpine Ski House",
+      "Subtotal": "$7,701.70",
+      "Tax": "$616.14",
+      "Total": "$8,317.84"
+    }
+  },
+  "training/invoice-contoso/ctso-0008.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Contoso Supplies Ltd",
+      "InvoiceNumber": "INV-2026467",
+      "InvoiceDate": "03/23/2026",
+      "DueDate": "04/23/2026",
+      "CustomerName": "Lucerne Publishing",
+      "Subtotal": "$7,639.50",
+      "Tax": "$611.16",
+      "Total": "$8,250.66"
+    }
+  },
+  "training/invoice-contoso/ctso-0009.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Contoso Supplies Ltd",
+      "InvoiceNumber": "INV-2026348",
+      "InvoiceDate": "08/06/2025",
+      "DueDate": "09/06/2025",
+      "PurchaseOrder": "PO-2677",
+      "CustomerName": "Wide World Importers",
+      "Subtotal": "$1,311.80",
+      "Tax": "$104.94",
+      "Total": "$1,416.74"
+    }
+  },
+  "training/invoice-contoso/ctso-0010.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Munson Paper Co",
+      "InvoiceNumber": "INV-2026477",
+      "InvoiceDate": "02/04/2026",
+      "DueDate": "03/04/2026",
+      "PurchaseOrder": "PO-6109",
+      "CustomerName": "Humongous Insurance",
+      "Subtotal": "$8,599.30",
+      "Tax": "$687.94",
+      "Total": "$9,287.24"
+    }
+  },
+  "test/invoice-contoso/ctso-t001.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Contoso Supplies Ltd",
+      "InvoiceNumber": "INV-2026712",
+      "InvoiceDate": "11/28/2026",
+      "DueDate": "12/28/2026",
+      "CustomerName": "Blue Yonder Airlines",
+      "Subtotal": "$3,105.50",
+      "Tax": "$248.44",
+      "Total": "$3,353.94"
+    }
+  },
+  "test/invoice-contoso/ctso-t002.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Adatum Office Goods",
+      "InvoiceNumber": "INV-2026204",
+      "InvoiceDate": "12/26/2026",
+      "DueDate": "01/26/2027",
+      "PurchaseOrder": "PO-6825",
+      "CustomerName": "Alpine Ski House",
+      "Subtotal": "$1,049.80",
+      "Tax": "$83.98",
+      "Total": "$1,133.78"
+    }
+  },
+  "test/invoice-contoso/ctso-t003.pdf": {
+    "docType": "invoice-contoso",
+    "fields": {
+      "VendorName": "Adatum Office Goods",
+      "InvoiceNumber": "INV-2026345",
+      "InvoiceDate": "04/16/2025",
+      "DueDate": "05/16/2025",
+      "PurchaseOrder": "PO-1031",
+      "CustomerName": "Lucerne Publishing",
+      "Subtotal": "$2,450.80",
+      "Tax": "$196.06",
+      "Total": "$2,646.86"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0001.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Graphic Design Institute",
+      "InvoiceNumber": "FB-26651",
+      "InvoiceDate": "6 Dec 2025",
+      "DueDate": "6 Jan 2026",
+      "PurchaseOrder": "PO-8624",
+      "CustomerName": "Margie's Travel",
+      "Subtotal": "$6,274.00",
+      "Tax": "$627.40",
+      "Total": "$6,901.40"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0002.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Wingtip Freight BV",
+      "InvoiceNumber": "FB-37889",
+      "InvoiceDate": "1 Apr 2025",
+      "DueDate": "1 May 2025",
+      "PurchaseOrder": "PO-4940",
+      "CustomerName": "Lucerne Publishing",
+      "Subtotal": "$1,071.30",
+      "Tax": "$107.13",
+      "Total": "$1,178.43"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0003.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Fabrikam Logistics GmbH",
+      "InvoiceNumber": "FB-67688",
+      "InvoiceDate": "17 Sep 2025",
+      "DueDate": "17 Oct 2025",
+      "CustomerName": "Litware Inc",
+      "Subtotal": "$2,259.00",
+      "Tax": "$225.90",
+      "Total": "$2,484.90"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0004.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Wingtip Freight BV",
+      "InvoiceNumber": "FB-15531",
+      "InvoiceDate": "7 Apr 2025",
+      "DueDate": "7 May 2025",
+      "CustomerName": "Blue Yonder Airlines",
+      "Subtotal": "$6,539.30",
+      "Tax": "$653.93",
+      "Total": "$7,193.23"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0005.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Lamna Cargo SA",
+      "InvoiceNumber": "FB-76605",
+      "InvoiceDate": "9 Dec 2025",
+      "DueDate": "9 Jan 2026",
+      "PurchaseOrder": "PO-8832",
+      "CustomerName": "Woodgrove Bank",
+      "Subtotal": "$4,535.00",
+      "Tax": "$453.50",
+      "Total": "$4,988.50"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0006.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Graphic Design Institute",
+      "InvoiceNumber": "FB-97749",
+      "InvoiceDate": "3 Jul 2025",
+      "DueDate": "3 Aug 2025",
+      "PurchaseOrder": "PO-3004",
+      "CustomerName": "Litware Inc",
+      "Subtotal": "$5,799.70",
+      "Tax": "$579.97",
+      "Total": "$6,379.67"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0007.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Wingtip Freight BV",
+      "InvoiceNumber": "FB-22084",
+      "InvoiceDate": "12 Apr 2026",
+      "DueDate": "12 May 2026",
+      "CustomerName": "Relecloud Corp",
+      "Subtotal": "$8,937.40",
+      "Tax": "$893.74",
+      "Total": "$9,831.14"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0008.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Graphic Design Institute",
+      "InvoiceNumber": "FB-23733",
+      "InvoiceDate": "26 Feb 2025",
+      "DueDate": "26 Mar 2025",
+      "PurchaseOrder": "PO-5455",
+      "CustomerName": "Fourth Coffee",
+      "Subtotal": "$7,294.50",
+      "Tax": "$729.45",
+      "Total": "$8,023.95"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0009.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Fabrikam Logistics GmbH",
+      "InvoiceNumber": "FB-44151",
+      "InvoiceDate": "1 May 2025",
+      "DueDate": "1 Jun 2025",
+      "PurchaseOrder": "PO-4643",
+      "CustomerName": "Northwind Traders",
+      "Subtotal": "$4,433.65",
+      "Tax": "$443.37",
+      "Total": "$4,877.02"
+    }
+  },
+  "training/invoice-fabrikam/fbk-0010.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Wingtip Freight BV",
+      "InvoiceNumber": "FB-92401",
+      "InvoiceDate": "7 Mar 2025",
+      "DueDate": "7 Apr 2025",
+      "PurchaseOrder": "PO-4372",
+      "CustomerName": "Alpine Ski House",
+      "Subtotal": "$3,760.00",
+      "Tax": "$376.00",
+      "Total": "$4,136.00"
+    }
+  },
+  "test/invoice-fabrikam/fbk-t001.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Lamna Cargo SA",
+      "InvoiceNumber": "FB-96050",
+      "InvoiceDate": "4 Aug 2025",
+      "DueDate": "4 Sep 2025",
+      "PurchaseOrder": "PO-7440",
+      "CustomerName": "Coho Winery",
+      "Subtotal": "$3,371.30",
+      "Tax": "$337.13",
+      "Total": "$3,708.43"
+    }
+  },
+  "test/invoice-fabrikam/fbk-t002.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Wingtip Freight BV",
+      "InvoiceNumber": "FB-66458",
+      "InvoiceDate": "24 Nov 2025",
+      "DueDate": "24 Dec 2025",
+      "PurchaseOrder": "PO-2384",
+      "CustomerName": "Proseware LLC",
+      "Subtotal": "$778.60",
+      "Tax": "$77.86",
+      "Total": "$856.46"
+    }
+  },
+  "test/invoice-fabrikam/fbk-t003.pdf": {
+    "docType": "invoice-fabrikam",
+    "fields": {
+      "VendorName": "Wingtip Freight BV",
+      "InvoiceNumber": "FB-38556",
+      "InvoiceDate": "2 Apr 2026",
+      "DueDate": "2 May 2026",
+      "PurchaseOrder": "PO-1017",
+      "CustomerName": "Alpine Ski House",
+      "Subtotal": "$2,573.75",
+      "Tax": "$257.38",
+      "Total": "$2,831.13"
+    }
+  },
+  "training/service-contract/sa-0001.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-370",
+      "EffectiveDate": "April 17, 2025",
+      "ProviderName": "Contoso Supplies Ltd",
+      "ClientName": "Wide World Importers",
+      "TermMonths": "12",
+      "MonthlyFee": "$3,750.00",
+      "GoverningLaw": "State of Colorado"
+    }
+  },
+  "training/service-contract/sa-0002.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-744",
+      "EffectiveDate": "July 1, 2025",
+      "ProviderName": "Fabrikam Logistics GmbH",
+      "ClientName": "Alpine Ski House",
+      "TermMonths": "24",
+      "MonthlyFee": "$2,750.00",
+      "GoverningLaw": "Commonwealth of Massachusetts"
+    }
+  },
+  "training/service-contract/sa-0003.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-433",
+      "EffectiveDate": "November 23, 2025",
+      "ProviderName": "Wingtip Freight BV",
+      "ClientName": "Blue Yonder Airlines",
+      "TermMonths": "48",
+      "MonthlyFee": "$3,750.00",
+      "GoverningLaw": "State of New York"
+    }
+  },
+  "training/service-contract/sa-0004.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-817",
+      "EffectiveDate": "January 27, 2025",
+      "ProviderName": "Wingtip Freight BV",
+      "ClientName": "Humongous Insurance",
+      "TermMonths": "24",
+      "MonthlyFee": "$9,750.00",
+      "GoverningLaw": "Commonwealth of Massachusetts"
+    }
+  },
+  "training/service-contract/sa-0005.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-131",
+      "EffectiveDate": "November 19, 2025",
+      "ProviderName": "Munson Paper Co",
+      "ClientName": "Wide World Importers",
+      "TermMonths": "12",
+      "MonthlyFee": "$3,500.00",
+      "GoverningLaw": "State of New York"
+    }
+  },
+  "training/service-contract/sa-0006.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-151",
+      "EffectiveDate": "July 27, 2025",
+      "ProviderName": "Lamna Cargo SA",
+      "ClientName": "Woodgrove Bank",
+      "TermMonths": "12",
+      "MonthlyFee": "$11,500.00",
+      "GoverningLaw": "Commonwealth of Massachusetts"
+    }
+  },
+  "training/service-contract/sa-0007.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-916",
+      "EffectiveDate": "August 9, 2025",
+      "ProviderName": "Contoso Supplies Ltd",
+      "ClientName": "Relecloud Corp",
+      "TermMonths": "12",
+      "MonthlyFee": "$9,500.00",
+      "GoverningLaw": "Commonwealth of Massachusetts"
+    }
+  },
+  "training/service-contract/sa-0008.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-854",
+      "EffectiveDate": "November 17, 2025",
+      "ProviderName": "Adatum Office Goods",
+      "ClientName": "Humongous Insurance",
+      "TermMonths": "48",
+      "MonthlyFee": "$5,500.00",
+      "GoverningLaw": "State of Washington"
+    }
+  },
+  "test/service-contract/sa-t001.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2026-857",
+      "EffectiveDate": "April 24, 2026",
+      "ProviderName": "Munson Paper Co",
+      "ClientName": "Proseware LLC",
+      "TermMonths": "48",
+      "MonthlyFee": "$9,250.00",
+      "GoverningLaw": "State of Colorado"
+    }
+  },
+  "test/service-contract/sa-t002.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-147",
+      "EffectiveDate": "August 22, 2025",
+      "ProviderName": "Fabrikam Logistics GmbH",
+      "ClientName": "Blue Yonder Airlines",
+      "TermMonths": "24",
+      "MonthlyFee": "$2,500.00",
+      "GoverningLaw": "Commonwealth of Massachusetts"
+    }
+  },
+  "test/service-contract/sa-t003.pdf": {
+    "docType": "service-contract",
+    "fields": {
+      "ContractNumber": "SA-2025-681",
+      "EffectiveDate": "June 9, 2025",
+      "ProviderName": "Fabrikam Logistics GmbH",
+      "ClientName": "Trey Research",
+      "TermMonths": "24",
+      "MonthlyFee": "$1,500.00",
+      "GoverningLaw": "State of Colorado"
+    }
+  },
+  "test/mixed/packet-01.pdf": {
+    "docType": "mixed",
+    "segments": [
+      {
+        "docType": "invoice-contoso",
+        "pages": 1
+      },
+      {
+        "docType": "invoice-fabrikam",
+        "pages": 1
+      },
+      {
+        "docType": "service-contract",
+        "pages": 2
+      }
+    ]
+  }
+}
